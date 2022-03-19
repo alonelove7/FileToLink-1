@@ -34,9 +34,9 @@ class Strings:
     start = Config.Start_Message
     dl_link = "🔗Descargar enlace"
     st_link = "🎞 Enlace directo"
-    generating_link = "**⏳ Generando enlace**"
+    generating_link = "**⏳ Creando enlace**"
     bot_channel = "📢 Canal del Bot"
-    dev_channel = "🤖 Developer"
+    dev_channel = "🤖Canal Oficial"
     fast = "⚡️**El enlace se ha actualizado a un enlace rápido.**"
     update_link = "⚡Actualizar a enlace rápido"
     update_limited = (f"⛔ Puedes actualizar solo {Config.Max_Fast_Processes} enlace en una sola vez, "
@@ -49,4 +49,4 @@ class Strings:
     file_not_found = "⚠️Archivo no encontrado, por favor reenvíalo de nuevo"
     delete_manually_button = "⚠️Puedes bórrarlo"
     delete_forbidden = "El BOT no puede eliminar mensajes mayores de 48 horas, puede eliminar este mensaje manualmente"
-    force_join = "⚠ Únete a Upload Free l para usar este Bot"
+    force_join = "⚠ Únete a Upload Free Chanel para usar este Bot"
