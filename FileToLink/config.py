@@ -33,7 +33,7 @@ class Config:
 class Strings:
     start = Config.Start_Message
     dl_link = "🔗Descargar enlace"
-    st_link = "🎞 Enlace directo"
+    st_link = "🎞 Enlace directo..."
     generating_link = "**⏳ Creando enlace**"
     bot_channel = "📢 Canal del Bot"
     dev_channel = "🤖Canal Oficial"
