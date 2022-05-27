@@ -20,7 +20,7 @@ class Config:
 
     Link_Root = f"https://{App_Name}.herokuapp.com/"
     Download_Folder = "Files"
-    Dev_Channel = "UploadFreeChanel"
+    Dev_Channel = "shadow_bots"
     Bot_UserName = None  # The bot will set it after starting
     Part_size = 10 * 1024 * 1024  # (10MB) For Pyrogram
     Buffer_Size = 512 * 1024  # For Quart
@@ -32,21 +32,21 @@ class Config:
 
 class Strings:
     start = Config.Start_Message
-    dl_link = "🔗Descargar enlace"
-    st_link = "🎞 Enlace directo..."
-    generating_link = "**⏳ Creando enlace...**"
-    bot_channel = "📢 Canal del Bot"
-    dev_channel = "🤖Canal Oficial"
-    fast = "⚡️**El enlace se ha actualizado a un enlace rápido.**"
-    update_link = "⚡Actualizar a enlace rápido"
-    update_limited = (f"⛔ Puedes actualizar solo {Config.Max_Fast_Processes} enlace en una sola vez, "
+    dl_link = "🔗 Download LINK"
+    st_link = "🎞 Stream LINK"
+    generating_link = "**⏳ Generating Link...**"
+    bot_channel = "📢 Bot Channel"
+    dev_channel = "🤖 Developer"
+    fast = "⚡️**The link has been updated to a fast link**"
+    update_link = "⚡ Update To Fast Link"
+    update_limited = (f"⛔ You can update just {Config.Max_Fast_Processes} link in one time, "
                       "please wait until previous update to complete")
-    re_update_link = "🔄 Reevaluando el enlace"
-    already_updated = "El enlace ya está actualizado."
-    wait_update = "⏳ Actualizando el enlace..."
-    wait = "⏳ Espere por favor..."
-    progress = "⏳ Progreso"
-    file_not_found = "⚠️Archivo no encontrado, por favor reenvíalo de nuevo"
-    delete_manually_button = "⚠️Puedes bórrarlo"
-    delete_forbidden = "El BOT no puede eliminar mensajes mayores de 48 horas, puede eliminar este mensaje manualmente"
-    force_join = "⚠ Únete a Upload Free Chanel para usar este Bot"
+    re_update_link = "🔄 Re-Updating the link"
+    already_updated = "The link is already updated"
+    wait_update = "⏳ Updating the link..."
+    wait = "⏳ Please wait..."
+    progress = "⏳ Progress"
+    file_not_found = "⚠️File Not Found, Please resend it again"
+    delete_manually_button = "⚠️You can delete it"
+    delete_forbidden = "The bot can't delete messages older than 48 hours, you can delete this message manually"
+    force_join = "⚠ Join Bot Channel to use this Bot"
