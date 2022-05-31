@@ -3,3 +3,8 @@ TgCrypto
 Quart
 Hypercorn
 aiohttp
+Telethon
+requests
+cryptg
+hachoir
+werkzeug
